@@ -1,0 +1,97 @@
+body{
+    background: #fffff8;
+font-family: 'Exo', sans-serif;
+}
+
+#app{
+    display: grid;
+    color: cornflowerblue;
+    margin: 50px;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Mallanna', sans-serif;
+}
+
+.entry{
+    margin-top: 20px;
+    width: 320px;
+    height: 100px;
+}
+
+.headline {
+    font-size: 40px;
+    color: coral;
+    font-family: 'Comfortaa', cursive;
+}
+.title{
+
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    color:#3b4a6b;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background: skyblue;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: 'Mallanna', sans-serif;
+    border: none;
+}
+
+button{
+    width: 320px;
+    height: 100px;
+    background: #3b4a6b;
+    color: cornflowerblue;
+    font-size: 26px;
+    font-family: 'Mallanna', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    display: block;
+    margin-top: 20px;
+}
+h1{
+    font-size: 36px;
+}
+
+
+
+textarea{
+    background: skyblue;
+    color:cornflowerblue;
+    font-size: 20px;
+    font-family: 'Mallanna', sans-serif;
+    border-style: none;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color:cornflowerblue; 
+    font-family: 'Oswald', sans-serif;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color:cornflowerblue; 
+    font-family: 'Mallanna', sans-serif;
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: cornflowerblue; 
+    font-family: 'Mallanna', sans-serif;
+} 
